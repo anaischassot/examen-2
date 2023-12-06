@@ -119,6 +119,52 @@ header p {
   padding-bottom: 12px;
   background-color: rgba(86, 61, 124, 0.15);
   border: 1px solid rgba(86, 61, 124, 0.2);
+main {
+  margin: 0 30px;
+}
+
+@media (min-width: 992px) {
+  main {
+    margin: 0 150px;
+  }
+}
+
+h2 {
+  font-size: 24px;
+  color: #00d8d0;
+  margin-top: 85px;
+}
+
+@media (min-width: 992px) {
+  .about h2 {
+    margin-top: 155px;
+  }
+}
+
+.about img {
+  margin-top: 50px;
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .first-img {
+    margin-bottom: 140px;
+    margin-left: 162px;
+  }
+}
+.about p {
+  padding-top: 55px;
+  font-size: 17px;
+  line-height: 25px; /* 147.059% */
+}
+
+@media (min-width: 992px) {
+  .about p {
+    font-size: 25px;
+    line-height: 140%; /* 35px */
+    padding-top: 136px;
+  }
+}
 }
 
 .container {
