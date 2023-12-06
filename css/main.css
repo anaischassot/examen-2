@@ -43,6 +43,20 @@ video {
 
 .row + .row {
   margin-top: 16px;
+nav,
+h1,
+h2,
+h4 {
+  text-transform: uppercase;
+  font-family: "Poiret One", sans-serif;
+}
+
+p,
+h3,
+footer a {
+  font-family: "News Cycle", sans-serif;
+}
+
 .page-header {
   background: url(../img/background-header.png) no-repeat;
   background-size: cover;
