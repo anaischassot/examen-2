@@ -24,6 +24,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
 
+  background: #0a0f23;
+  color: white;
   font-size: 1rem;
   line-height: 1.25;
 }
@@ -41,6 +43,74 @@ video {
 
 .row + .row {
   margin-top: 16px;
+.page-header {
+  background: url(../img/background-header.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 750px;
+}
+
+@media (min-width: 992px) {
+  .page-header {
+    height: 790px;
+  }
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  margin: 71px 30px 213px;
+}
+
+nav a {
+  font-size: 19px;
+  color: #fff;
+  text-decoration-line: none;
+  border-bottom: 1px solid #00d8d0;
+}
+
+@media (min-width: 992px) {
+  nav a {
+    font-size: 28px;
+  }
+}
+
+h1 {
+  text-align: center;
+  font-size: 83px;
+  letter-spacing: -4.15px;
+  margin-top: -25px;
+}
+
+h1,
+h2,
+h4 {
+  font-weight: 400;
+}
+
+@media (min-width: 992px) {
+  h1 {
+    font-size: 154px;
+    letter-spacing: -7.7px;
+    margin-top: -70px;
+    margin-bottom: 5px;
+  }
+}
+
+header p {
+  text-align: center;
+  font-size: 18px;
+  margin-top: -10px;
+}
+
+@media (min-width: 992px) {
+  header p {
+    font-size: 33px;
+    line-height: 0;
+  }
 }
 
 .row > .col,
