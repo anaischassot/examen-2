@@ -165,8 +165,128 @@ h2 {
     padding-top: 136px;
   }
 }
+
+@media (min-width: 992px) {
+  .title-dish {
+    margin-top: 210px;
+  }
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 40px 0 20px;
+}
+
+@media (min-width: 992px) {
+  h3 {
+    font-size: 36px;
+    margin: 25px 0 40px;
+  }
 }
 
 .container {
   margin-top: 60px;
+.dish img {
+  margin-bottom: 22px;
+}
+
+@media (min-width: 992px) {
+  .dish img {
+    margin-bottom: 55px;
+  }
+}
+
+h4 {
+  color: #00d8d0;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+@media (min-width: 992px) {
+  h4 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 17px;
+  }
+}
+
+.dish p {
+  font-size: 16px;
+  line-height: 22px; /* 137.5% */
+  margin-bottom: 65px;
+}
+
+@media (min-width: 992px) {
+  .dish p {
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px; /* 150% */
+    margin-bottom: 50px;
+  }
+}
+
+.dish-more {
+  position: relative;
+}
+
+.dish-more a {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #00d8d0;
+  font-family: Poiret One;
+  font-size: 23px;
+  line-height: 22px;
+  text-decoration: none;
+}
+
+.link-dish-more {
+  border-bottom: 0.5px solid #00d8d0;
+}
+
+@media (min-width: 768px) {
+  .dish-more a {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .link-dish-more {
+    border-bottom: 1px solid #00d8d0;
+  }
+}
+
+.button {
+  border-radius: 12px;
+  border: 1px solid #00d8d0;
+  background: rgba(42, 53, 98, 0.39);
+  margin: 25px 0 90px;
+  padding: 12px;
+  text-align: center;
+  font-family: Poiret One;
+  font-size: 20px;
+}
+
+@media (min-width: 992px) {
+  .button {
+    font-size: 40px;
+    border-radius: 20px;
+    padding: 25px 30px;
+    margin: 140px 0 190px;
+  }
+}
+
+.button-center {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  background: rgba(0, 216, 208, 0.48);
+  padding-bottom: 125px;
+}
 }
